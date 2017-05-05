@@ -1,0 +1,91 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+<servlet>
+  	<servlet-name>RegisterServlet</servlet-name>
+  	<display-name>RegisterServlet</display-name>
+  	<description></description>
+  	<servlet-class>actions.RegisterServlet</servlet-class>
+  </servlet>
+<servlet>
+	<servlet-name>LoginServlet</servlet-name>
+	<display-name>LoginServlet</display-name>
+	<description></description>
+	<servlet-class>actions.LoginServlet</servlet-class>
+</servlet>
+<servlet>
+	<servlet-name>AddEvent</servlet-name>
+	<display-name>AddEvent</display-name>
+	<description></description>
+	<servlet-class>actions.AddEvent</servlet-class>
+</servlet>
+<servlet>
+	<servlet-name>UpdateTechTalk</servlet-name>
+	<display-name>UpdateTechTalk</display-name>
+	<description></description>
+	<servlet-class>actions.UpdateTechTalk</servlet-class>
+</servlet>
+<servlet>
+	<servlet-name>DeleteTechTalk</servlet-name>
+	<display-name>DeleteTechTalk</display-name>
+	<description></description>
+	<servlet-class>actions.DeleteTechTalk</servlet-class>
+</servlet>
+<servlet>
+	<servlet-name>DeleteServlet</servlet-name>
+	<display-name>DeleteServlet</display-name>
+	<description></description>
+	<servlet-class>actions.DeleteServlet</servlet-class>
+</servlet>
+<servlet>
+	<servlet-name>AllTechTalk</servlet-name>
+	<display-name>AllTechTalk</display-name>
+	<description></description>
+	<servlet-class>actions.AllTechTalk</servlet-class>
+</servlet>
+<servlet>
+	<servlet-name>EmployeeTechTalk</servlet-name>
+	<display-name>EmployeeTechTalk</display-name>
+	<description></description>
+	<servlet-class>actions.EmployeeTechTalk</servlet-class>
+</servlet>
+
+
+  <servlet-mapping>
+  	<servlet-name>RegisterServlet</servlet-name>
+  	<url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddEvent</servlet-name>
+  	<url-pattern>/AddEvent</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UpdateTechTalk</servlet-name>
+  	<url-pattern>/UpdateTechTalk</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DeleteTechTalk</servlet-name>
+  	<url-pattern>/DeleteTechTalk</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DeleteServlet</servlet-name>
+  	<url-pattern>/DeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AllTechTalk</servlet-name>
+  	<url-pattern>/AllTechTalk</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>EmployeeTechTalk</servlet-name>
+  	<url-pattern>/EmployeeTechTalk</url-pattern>
+  </servlet-mapping>
+  
+
+</web-app>
